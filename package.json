@@ -3,12 +3,20 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
+    "dotenv": "^16.4.5",
     "express": "~4.16.1",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "permitio": "^2.7.2",
+    "stytch": "^11.8.0",
+    "svix": "^1.37.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
